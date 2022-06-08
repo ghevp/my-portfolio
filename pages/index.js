@@ -10,11 +10,14 @@ export default function Home() {
         <meta name="description" content="なんか知らんけど、ポートフォリオを晒す。" />
         <link rel="icon" href="/favicon.ico" />
         <style>
-@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@500&display=swap');
-</style> 
+          @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@500&display=swap');
+        </style> 
       </Head>
       <div className={styles.header}>
-          <div className={styles.header.inner}>
+          <div className={styles.header_inner}>
+            <a className={styles.header_logo} href="./index.js">
+              <img src="https://github.com/ghevp/my-portfolio/blob/main/img/001.JPG?raw=true" alt="gue"></img>
+            </a>
             <button className={styles.button}></button>
             <div className={styles.header_site_menu}>
               <nav className={styles.site_menu}>
