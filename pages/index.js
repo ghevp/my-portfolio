@@ -9,18 +9,21 @@ export default function Home() {
         <title>ぐゑのぽーとふぉりを</title>
         <meta name="description" content="なんか知らんけど、ポートフォリオを晒す。" />
         <link rel="icon" href="/favicon.ico" />
+
         <style>
           @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@500&display=swap');
         </style> 
+        <script src="..js\script.js"></script>
       </Head>
       <div className={styles.header}>
-          <div className={styles.header_inner}>
+          <div className={styles.header_inner} >
             <a className={styles.header_logo} href="./index.js">
               <img src="https://github.com/ghevp/my-portfolio/blob/main/img/001.JPG?raw=true" alt="gue"></img>
             </a>
-            <button className={styles.button}></button>
-            <div className={styles.header_site_menu}>
-              <nav className={styles.site_menu}>
+            
+            <button className={styles.button} ></button>
+            <div className={styles.header_site_menu} >
+              <nav className={styles.site_menu} >
                 <ul>
                   <li>うんち</li>{/*あとでリンクを挿入する*/}
                   <li>うんちっち</li>
@@ -41,10 +44,20 @@ export default function Home() {
         </h1>
 
         <p className={styles.description}>
-          あばばばばばばばばば
-          <code className={styles.code}>pages/index.js</code>
+          僕が制作してきたものをご紹介します。<br></br>
+          また、ハンバーガーメニューは現在使用できません。<br></br>
+          
         </p>
-
+        <div className={styles.tell}>
+          <div className={styles.tell_include}>
+          <a href="https://gakujochan.com"><h2>学情チャン</h2>
+          <img src="../img/gakujochan.jpg"></img>
+         a </a>
+          <a href="https://ghevp.com"><h2>ぐゑのサイト</h2>
+          a</a>
+          <a href="https://studinfo-shizuhama.ghevp.com"><h2>静浜学生情報サイト</h2>a</a>
+          </div>
+        </div>  
         <div className={styles.grid}>
           <a href="https://nextjs.org/docs" className={styles.card}>
             <h2>Documentation &rarr;</h2>

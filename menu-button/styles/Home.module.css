@@ -1,93 +1,6 @@
 .container {
   padding: 0 2rem;
 }
-.header{
-  position: fixed;
-  top:0;
-  left: 0;
-  right: 0;
-  height: 80px;
-  background-color: white;
-  z-index: 10;
-  box-shadow: 0 2px 4px gray;
-}
-.header_inner{
-  padding-left: 10%;
-  padding-right: 10%;
-  height: 100%;
-  position: relative;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-
-}
-.header_logo img{
-  width: 80px;
-  display: block;
-}
-.header_site_menu{
-  
-  position: absolute;
-  top: 100%;
-  right: 0;
-  left: 80%;
-  color: whitesmoke;
-  padding-top: 50px;
-  background-color: #0070f3;
-  padding-bottom: 100%;
-  display: none;
-  
-}
-.site_menu{
-  align-items: center;
-  
-}
-.site_menu ul{
-  list-style: none;
-  font-size: 20px;
-  font-family: 'Noto Serif JP', serif;
-  
-}
-.site_menu li{
-  margin-top: 20px;
-}
-.site_menu a{
-  
-  color:inherit;
-  text-decoration: none;
-}
-.button{
-  display: block;
-  width: 64px;
-  height: 54px;
-  background-image: url(https://github.com/ghevp/my-portfolio/blob/main/img/hbm.png?raw=true);
-  background-size: 90%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-color: transparent;
-  border-radius:0;
-  outline: none;
-  border: none;
-}
-.header_site_menu.is-show{
-  display: block;
-}
-.tell{
-  position:inherit;
-  width: 60%;
-  max-width: 1000px;
-}
-.tell_include{
-  display: flex;
-  justify-content: space-between;
-  justify-content: space-between;
-  align-items: center;
-
-}
-.tell_include a{
-  margin-left: 5%;
-  margin-right: 5%;
-}
 
 .main {
   min-height: 100vh;
@@ -97,7 +10,6 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #eaeaea;
 }
 
 .footer {
@@ -129,7 +41,6 @@
 
 .title {
   margin: 0;
-  margin-top: 80px;
   line-height: 1.15;
   font-size: 4rem;
 }
