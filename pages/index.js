@@ -46,46 +46,56 @@ export default function Home() {
         <p className={styles.description}>
           僕が制作してきたものをご紹介します。<br></br>
           また、ハンバーガーメニューは現在使用できません。<br></br>
-          
+          理由はnext jsがよくわからないからです。
         </p>
         <div className={styles.tell}>
           <div className={styles.tell_include}>
           <a href="https://gakujochan.com"><h2>学情チャン</h2>
-          <img src="../img/gakujochan.jpg"></img>
-         a </a>
+          <img src="https://github.com/ghevp/my-portfolio/blob/main/img/gakujochan.jpg?raw=true"></img>
+          </a>
           <a href="https://ghevp.com"><h2>ぐゑのサイト</h2>
-          a</a>
-          <a href="https://studinfo-shizuhama.ghevp.com"><h2>静浜学生情報サイト</h2>a</a>
+          <img src="https://github.com/ghevp/my-portfolio/blob/main/img/001.JPG?raw=true" alt="gue"></img>
+          </a>
+          <a href="https://studinfo-shizuhama.ghevp.com"><h2>静浜学生情報サイト</h2>
+          <img src="https://github.com/ghevp/my-portfolio/blob/main/img/favicon.png?raw=true"></img> </a>
           </div>
         </div>  
+        <div className={styles.introduce_before}>
+          <h1>自己紹介</h1>
+          <div className={styles.intro1}>
+          <div className={styles.introduce}>
+           
+
+          <ul>
+            <li><h1>谷口元仁</h1></li>
+            <li>
+              <p>平成14年生まれ</p>
+              <p className={styles.shizudai}>静岡大学情報学部行動情報学科2年生</p>
+              <p>宮城県仙台市生まれ</p>
+              <p>三重県四日市市育ち</p>
+            </li>
+            </ul>
+            </div>
+          </div>
+          <div className={styles.details}>
+            <p>あんまり強くないです。<br></br>
+            むしろ弱いです。めっちゃ弱いです。<br></br>
+            カスのhtmlやphp、javaを書きます。<br></br>
+            その他の言語は非対応！！<br></br>
+            あと一応あっとこーだもやってます。<br></br>
+            弱すぎて他の人の見ると鬱になっちゃうので基本他人のは見ません</p>
+          </div>
+          <div className={styles.rinks}>
+            <ul>
+              <li><a href="https://github.com/ghevp"><p>ぎっとはぶ</p></a> </li>
+              <li><a href="https://atcoder.jp/users/ghevp"><p>あっとこーだ</p></a> </li>
+            </ul>
+          </div>
+        </div>
         <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h2>Documentation &rarr;</h2>
-            <p>Find in-depth information about Next.js features and API.</p>
-          </a>
+        
 
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h2>Learn &rarr;</h2>
-            <p>中身の入れ子</p>
-          </a>
-
-          <a
-            href="https://github.com/vercel/next.js/tree/canary/examples"
-            className={styles.card}
-          >
-            <h2>Examples &rarr;</h2>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
-          </a>
-
-          <a
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-          >
-            <h2>Deploy &rarr;</h2>
-            <p>
-              Instantly deploy your Next.js site おおおおおto a public URL with Vercel.
-            </p>
-          </a>
+        
         </div>
       </main>
 
