@@ -1,5 +1,5 @@
 import Head from 'next/head'
-
+import Script from 'next/script'
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
@@ -11,7 +11,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
 
         
-        <script src="..js\script.js"></script>
+        
       </Head>
       <div className={styles.header}>
           <div className={styles.header_inner} >
