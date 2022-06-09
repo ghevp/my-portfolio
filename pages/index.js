@@ -10,9 +10,7 @@ export default function Home() {
         <meta name="description" content="なんか知らんけど、ポートフォリオを晒す。" />
         <link rel="icon" href="/favicon.ico" />
 
-        <style>
-          @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@500&display=swap');
-        </style> 
+        
         <script src="..js\script.js"></script>
       </Head>
       <div className={styles.header}>
